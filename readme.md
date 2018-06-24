@@ -1,6 +1,6 @@
-#PHP Login System
+# PHP Login System
 
-##Install
+## Install
 
 Configure webserver to point criterion-login/public directory.
 
@@ -20,7 +20,7 @@ Example **httpd-vhosts.conf**
 
 Example data hosted in **dump.sql**
 
-##Database
+## Database
 
 MySQL connection informations hosted in **config/DB.php**
 ```
@@ -30,7 +30,7 @@ private $username   = 'root';
 private $password   = '';
 ```
 
-##Assets
+## Assets
 
 For install frontend dependencies (jquery, bootstrap) run:
 
@@ -38,7 +38,7 @@ For install frontend dependencies (jquery, bootstrap) run:
 `npm install`
 
 
-##Technology
+## Technology
 - Apache 2.4.33
 - PHP version: 5.6.36
 - MariaDB 10.1.32 (MySQL)
